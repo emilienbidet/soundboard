@@ -1,9 +1,10 @@
-import Soundboard from "./components/Soundboard";
+import SoundBoard from "@/components/sound-board";
+import { sounds } from "@/consts/sounds";
 
 function App() {
 	return (
 		<div className="p-4">
-			<Soundboard />
+			<SoundBoard sounds={sounds} />
 		</div>
 	);
 }
