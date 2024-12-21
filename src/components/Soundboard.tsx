@@ -1,6 +1,6 @@
+import carelessWhispers from "@/assets/sounds/careless-whispers.mp3";
 import type React from "react";
 import SoundButton from "./SoundButton";
-import carelessWhispers from "@/assets/sounds/careless-whispers.mp3";
 
 const sounds = [{ file: carelessWhispers, name: "Careless Whispers" }];
 
