@@ -15,6 +15,8 @@ import villager1 from "@/assets/sounds/villager-1.mp3";
 import villager2 from "@/assets/sounds/villager-2.mp3";
 import villager3 from "@/assets/sounds/villager-3.mp3";
 import wrongAnswer from "@/assets/sounds/wrong-answer.mp3";
+import annaEtRomane from "@/assets/sounds/anna-et-romane.wav";
+import jingle from "@/assets/sounds/jingle.mp3";
 
 export const sounds: { file: string; name: string; color: string }[] = [
 	{ file: carelessWhispers, name: "Careless Whispers", color: "red" },
@@ -42,4 +44,6 @@ export const sounds: { file: string; name: string; color: string }[] = [
 	{ file: villager2, name: "Villager 2", color: "blue" },
 	{ file: villager3, name: "Villager 3", color: "blue" },
 	{ file: wrongAnswer, name: "Wrong Answer", color: "blue" },
+	{ file: annaEtRomane, name: "Anna et Romane - Signature ", color: "orange" },
+	{ file: jingle, name: "JINGLE ", color: "purple" },
 ];
